@@ -1,0 +1,113 @@
+/* ===============================
+   TABLETS
+================================== */
+
+@media (max-width:992px){
+
+section{
+    padding:80px 6%;
+}
+
+.hero-content h1{
+    font-size:3rem;
+}
+
+.section-title{
+    font-size:2rem;
+}
+
+.feature-container,
+.pricing-container,
+.testimonial-container{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* ===============================
+   MOBILE
+================================== */
+
+@media (max-width:768px){
+
+.hero-content h1{
+
+    font-size:2.5rem;
+
+}
+
+.hero-content p{
+
+    font-size:1rem;
+
+}
+
+.feature-container,
+.pricing-container,
+.testimonial-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.contact form{
+
+    width:100%;
+
+}
+
+footer{
+
+    padding:40px 6%;
+
+}
+
+}
+
+/* ===============================
+   SMALL DEVICES
+================================== */
+
+@media(max-width:480px){
+
+.hero-content h1{
+
+    font-size:2rem;
+
+}
+
+.hero-content p{
+
+    font-size:.95rem;
+
+}
+
+.btn{
+
+    padding:10px 22px;
+
+    font-size:.9rem;
+
+}
+
+.section-title{
+
+    font-size:1.8rem;
+
+}
+
+.price-card{
+
+    padding:30px;
+
+}
+
+.feature-card{
+
+    padding:30px;
+
+}
+
+}

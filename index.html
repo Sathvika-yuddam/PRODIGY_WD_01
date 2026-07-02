@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StayEase | Hotel Booking</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   </head>
+
+<body>
+<style>
+    /* =========================
+    BOOK BUTTON 
+========================  */
+.book-btn{
+    background-color: rgba(255, 196, 0, 0.811);
+}
+.book-btn:hover{
+
+    background:rgba(255, 196, 0, 0.811);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+
+}
+
+</style>
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+    <a href="#" class="logo">
+        StayEase
+    </a>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#features">Features</a></li>
+
+        <li><a href="#pricing">Pricing</a></li>
+
+        <li><a href="#testimonials">Testimonials</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <a href="#pricing" class="btn book-btn">
+        Book Now
+    </a>
+
+    <div class="menu-btn">
+
+        <i class="fa-solid fa-bars"></i>
+
+    </div>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+    <h1>
+
+        Find Your Perfect Stay
+
+    </h1>
+
+    <p>
+
+        Luxury hotels, unforgettable experiences, and the best prices—all in one place.
+
+    </p>
+
+    <a href="#explore-hotels" class="btn hero-btn">
+
+        Explore Hotels
+
+    </a>
+
+</div>
+
+<!-- Add Hero Background Image in CSS -->
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section id="features" class="features">
+
+<h2 class="section-title">
+
+    Why Choose StayEase?
+
+</h2>
+
+<div class="feature-container">
+
+<div class="feature-card">
+
+    <!-- Add Icon -->
+
+    <i class="fa-solid fa-bed"></i>
+
+    <h3>Luxury Rooms</h3>
+
+    <p>
+
+        Spacious rooms designed for comfort and elegance.
+
+    </p>
+
+</div>
+
+<div class="feature-card">
+
+    <i class="fa-solid fa-utensils"></i>
+
+    <h3>Free Breakfast</h3>
+
+    <p>
+
+        Fresh and delicious breakfast included with every stay.
+
+    </p>
+
+</div>
+
+<div class="feature-card">
+
+    <i class="fa-solid fa-water-ladder"></i>
+
+    <h3>Swimming Pool</h3>
+
+    <p>
+
+        Relax in our infinity pool with breathtaking views.
+
+    </p>
+
+</div>
+
+</div>
+
+</section>
+             <!-- Explore Hotels-->
+<section id="explore-hotels">
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/view.png" class="d-block w-100" alt="hotel view">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/room.png" class="d-block w-100" alt="hygenic rooms">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/pool.jpg" class="d-block w-100" alt="beautiful pool">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!-- ================= PRICING ================= -->
+
+<section id="pricing" class="pricing">
+
+<h2 class="section-title">
+
+Pricing Plans
+
+</h2>
+
+<div class="pricing-container">
+
+<div class="price-card">
+
+<h3>Standard</h3>
+
+<h1>₹1999</h1>
+
+<p>Per Night</p>
+
+<ul>
+
+<li>Free Wi-Fi</li>
+
+<li>Breakfast</li>
+
+<li>Air Conditioning</li>
+
+</ul>
+
+<a href="#book" class="btn">
+
+Book Now
+
+</a>
+
+</div>
+
+<div class="price-card popular">
+
+<span class="popular-tag">
+
+Most Popular
+
+</span>
+
+<h3>Premium</h3>
+
+<h1>₹3999</h1>
+
+<p>Per Night</p>
+
+<ul>
+
+<li>Luxury Room</li>
+
+<li>Breakfast</li>
+
+<li>Pool Access</li>
+
+<li>Gym</li>
+
+</ul>
+
+<a href="#book" class="btn">
+
+Book Now
+
+</a>
+
+</div>
+
+<div class="price-card">
+
+<h3>Luxury Suite</h3>
+
+<h1>₹6999</h1>
+
+<p>Per Night</p>
+
+<ul>
+
+<li>Private Suite</li>
+
+<li>All Meals</li>
+
+<li>Spa</li>
+
+<li>Airport Pickup</li>
+
+</ul>
+
+<a href="#book" class="btn">
+
+Book Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section id="testimonials" class="testimonials">
+
+<h2 class="section-title">
+
+Happy Guests
+
+</h2>
+
+<div class="testimonial-container">
+
+<div class="testimonial-card">
+
+<!-- Add Customer Image -->
+
+<h3>Rahul Sharma</h3>
+
+<p>
+
+★★★★★
+
+</p>
+
+<p>
+
+Amazing hospitality. Everything exceeded expectations!
+
+</p>
+
+</div>
+
+<div class="testimonial-card">
+
+<h3>Anjali Verma</h3>
+
+<p>
+
+★★★★★
+
+</p>
+
+<p>
+
+Beautiful rooms and excellent customer service.
+
+</p>
+
+</div>
+
+<div class="testimonial-card">
+
+<h3>David John</h3>
+
+<p>
+
+★★★★★
+
+</p>
+
+<p>
+
+One of the best hotel booking experiences I've ever had.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="book" class="book">
+
+<h2 class="section-title">
+
+Get in Touch
+
+</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+placeholder="Email Address"
+required>
+
+<textarea
+rows="6"
+placeholder="Your Message">
+</textarea>
+
+<button class="btn">
+
+Send Message
+
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact" class="contact">
+
+<h2>
+
+StayEase
+
+</h2>
+
+<p>
+
+Luxury Hotel Booking Made Easy
+
+</p>
+
+<div class="social-icons">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-twitter"></i>
+
+<i class="fab fa-linkedin"></i>
+
+</div>
+
+<p>
+
+© 2026 StayEase. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
