@@ -21,14 +21,20 @@ The webpage includes a fixed navigation bar that changes style while scrolling a
 - JavaScript
 
 ## Project Structure
-'''
-LandingPage/
-│
+```
+PRODIGY_WD_01/
+├── assets/
+│   ├── hotel.png
+│   ├── pool.jpg
+│   ├── room.png
+│   └── view.png
+├── css/
+│   ├── navbar.css
+│   ├── responsive.css
+│   └── style.css
 ├── index.html
-├── style.css
-├── script.js
-└── assets/
-'''
+└── script.js
+```
 ## Learning Outcomes
 
 - Responsive Layouts
