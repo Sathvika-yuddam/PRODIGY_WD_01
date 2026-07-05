@@ -88,3 +88,21 @@ link.classList.add("active");
 });
 
 });
+
+const form = document.getElementById("contactForm");
+const successMessage = document.getElementById("successMessage");
+
+form.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    successMessage.textContent = "✅ Message sent successfully!";
+    successMessage.style.display = "block";
+
+    form.reset();
+
+    setTimeout(() => {
+        successMessage.style.display = "none";
+    }, 3000);
+
+});
